@@ -1,4 +1,4 @@
-#Django Preview
+Note: Python 3.6 or higher
 
 To access the repository open command prompt (Windows) or terminal (MAC or Linux).
 Clone repository and enter repository
@@ -27,3 +27,12 @@ python manage.py runserver
 
 ```
 
+Open a browser and access the local host. This can be done by pasting 
+
+```
+
+http://127.0.0.1:8000/
+
+```
+
+in your browser's address bar.
