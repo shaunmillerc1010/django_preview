@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Shaun Miller Demo</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="static/coins/css/main.css" />
+		<noscript><link rel="stylesheet" href="static/coins/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Sidebar -->
+			<section id="sidebar">
+				<div class="inner">
+					<nav>
+						<ul>
+							<li><a href="#intro">Welcome</a></li>
+							<li><a href="#one">Candlesticks</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Intro -->
+					<section id="intro" class="wrapper style1 fullscreen fade-up">
+						<div class="inner">
+							<h1>Shaun Miller Django Demo</h1>
+							<p>Here is a web application run with the Django framework displaying the cryptocurrencies Bitcoin and Ethereum. Visuals are made in Plotly and Pandas Python Libraries. Website template provided by <a href="http://html5up.net">HTML5 UP</a><br />
+							and released for free under the <a href="http://html5up.net/license">Creative Commons</a>.</p>
+							<p>Candlestick charts display the open, high, low, and closing price of a currency in a particular time interval (5 minutes here). Charts were last updated December 15th at 5:00 pm (US Central Time - Chicago).</p>
+						</div>
+					</section>
+
+				<!-- One -->
+					<section id="one" class="wrapper style2 spotlights">
+						<section>
+							<a  class="image"><img src="static/coins/images/btc.jpg" alt="" data-position="center center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Bitcoin (BTC) Candlestick prices</h2>
+									{{ btc_candles|safe }}
+								</div>
+							</div>
+						</section>
+						<section>
+							<a class="image"><img src="static/coins/images/eth.png" alt="" data-position="top center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Ethereum (BTC) Candlestick prices</h2>
+									{{ eth_candles|safe }}
+								</div>
+							</div>
+						</section>
+					</section>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper style1-alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="static/coins/js/jquery.min.js"></script>
+			<script src="static/coins/js/jquery.scrollex.min.js"></script>
+			<script src="static/coins/js/jquery.scrolly.min.js"></script>
+			<script src="static/coins/js/browser.min.js"></script>
+			<script src="static/coins/js/breakpoints.min.js"></script>
+			<script src="static/coins/js/util.js"></script>
+			<script src="static/coins/js/main.js"></script>
+
+	</body>
+</html>
